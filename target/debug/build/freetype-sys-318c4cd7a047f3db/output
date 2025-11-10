@@ -1,0 +1,175 @@
+cargo:rerun-if-env-changed=FREETYPE2_NO_PKG_CONFIG
+cargo:rerun-if-env-changed=PKG_CONFIG_x86_64-unknown-linux-gnu
+cargo:rerun-if-env-changed=PKG_CONFIG_x86_64_unknown_linux_gnu
+cargo:rerun-if-env-changed=HOST_PKG_CONFIG
+cargo:rerun-if-env-changed=PKG_CONFIG
+cargo:rerun-if-env-changed=FREETYPE2_STATIC
+cargo:rerun-if-env-changed=FREETYPE2_DYNAMIC
+cargo:rerun-if-env-changed=PKG_CONFIG_ALL_STATIC
+cargo:rerun-if-env-changed=PKG_CONFIG_ALL_DYNAMIC
+cargo:rerun-if-env-changed=PKG_CONFIG_PATH_x86_64-unknown-linux-gnu
+cargo:rerun-if-env-changed=PKG_CONFIG_PATH_x86_64_unknown_linux_gnu
+cargo:rerun-if-env-changed=HOST_PKG_CONFIG_PATH
+cargo:rerun-if-env-changed=PKG_CONFIG_PATH
+cargo:rerun-if-env-changed=PKG_CONFIG_LIBDIR_x86_64-unknown-linux-gnu
+cargo:rerun-if-env-changed=PKG_CONFIG_LIBDIR_x86_64_unknown_linux_gnu
+cargo:rerun-if-env-changed=HOST_PKG_CONFIG_LIBDIR
+cargo:rerun-if-env-changed=PKG_CONFIG_LIBDIR
+cargo:rerun-if-env-changed=PKG_CONFIG_SYSROOT_DIR_x86_64-unknown-linux-gnu
+cargo:rerun-if-env-changed=PKG_CONFIG_SYSROOT_DIR_x86_64_unknown_linux_gnu
+cargo:rerun-if-env-changed=HOST_PKG_CONFIG_SYSROOT_DIR
+cargo:rerun-if-env-changed=PKG_CONFIG_SYSROOT_DIR
+cargo:rerun-if-env-changed=FREETYPE2_STATIC
+cargo:rerun-if-env-changed=FREETYPE2_DYNAMIC
+cargo:rerun-if-env-changed=PKG_CONFIG_ALL_STATIC
+cargo:rerun-if-env-changed=PKG_CONFIG_ALL_DYNAMIC
+cargo:rerun-if-env-changed=PKG_CONFIG_PATH_x86_64-unknown-linux-gnu
+cargo:rerun-if-env-changed=PKG_CONFIG_PATH_x86_64_unknown_linux_gnu
+cargo:rerun-if-env-changed=HOST_PKG_CONFIG_PATH
+cargo:rerun-if-env-changed=PKG_CONFIG_PATH
+cargo:rerun-if-env-changed=PKG_CONFIG_LIBDIR_x86_64-unknown-linux-gnu
+cargo:rerun-if-env-changed=PKG_CONFIG_LIBDIR_x86_64_unknown_linux_gnu
+cargo:rerun-if-env-changed=HOST_PKG_CONFIG_LIBDIR
+cargo:rerun-if-env-changed=PKG_CONFIG_LIBDIR
+cargo:rerun-if-env-changed=PKG_CONFIG_SYSROOT_DIR_x86_64-unknown-linux-gnu
+cargo:rerun-if-env-changed=PKG_CONFIG_SYSROOT_DIR_x86_64_unknown_linux_gnu
+cargo:rerun-if-env-changed=HOST_PKG_CONFIG_SYSROOT_DIR
+cargo:rerun-if-env-changed=PKG_CONFIG_SYSROOT_DIR
+TARGET = Some("x86_64-unknown-linux-gnu")
+OPT_LEVEL = Some("0")
+HOST = Some("x86_64-unknown-linux-gnu")
+cargo:rerun-if-env-changed=CXX_x86_64-unknown-linux-gnu
+CXX_x86_64-unknown-linux-gnu = None
+cargo:rerun-if-env-changed=CXX_x86_64_unknown_linux_gnu
+CXX_x86_64_unknown_linux_gnu = None
+cargo:rerun-if-env-changed=HOST_CXX
+HOST_CXX = None
+cargo:rerun-if-env-changed=CXX
+CXX = None
+cargo:rerun-if-env-changed=CRATE_CC_NO_DEFAULTS
+CRATE_CC_NO_DEFAULTS = None
+DEBUG = Some("true")
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,sse,sse2")
+cargo:rerun-if-env-changed=CXXFLAGS_x86_64-unknown-linux-gnu
+CXXFLAGS_x86_64-unknown-linux-gnu = None
+cargo:rerun-if-env-changed=CXXFLAGS_x86_64_unknown_linux_gnu
+CXXFLAGS_x86_64_unknown_linux_gnu = None
+cargo:rerun-if-env-changed=HOST_CXXFLAGS
+HOST_CXXFLAGS = None
+cargo:rerun-if-env-changed=CXXFLAGS
+CXXFLAGS = None
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-4" "-fno-omit-frame-pointer" "-m64" "-I" "." "-I" "freetype2/include" "-I" "freetype2/src" "-DFT2_BUILD_LIBRARY" "-o" "/root/Rust/rust-data-analysis/target/debug/build/freetype-sys-318c4cd7a047f3db/out/freetype2/src/autofit/autofit.o" "-c" "freetype2/src/autofit/autofit.c"
+exit status: 0
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-4" "-fno-omit-frame-pointer" "-m64" "-I" "." "-I" "freetype2/include" "-I" "freetype2/src" "-DFT2_BUILD_LIBRARY" "-o" "/root/Rust/rust-data-analysis/target/debug/build/freetype-sys-318c4cd7a047f3db/out/freetype2/src/base/ftbase.o" "-c" "freetype2/src/base/ftbase.c"
+exit status: 0
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-4" "-fno-omit-frame-pointer" "-m64" "-I" "." "-I" "freetype2/include" "-I" "freetype2/src" "-DFT2_BUILD_LIBRARY" "-o" "/root/Rust/rust-data-analysis/target/debug/build/freetype-sys-318c4cd7a047f3db/out/freetype2/src/base/ftbbox.o" "-c" "freetype2/src/base/ftbbox.c"
+exit status: 0
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-4" "-fno-omit-frame-pointer" "-m64" "-I" "." "-I" "freetype2/include" "-I" "freetype2/src" "-DFT2_BUILD_LIBRARY" "-o" "/root/Rust/rust-data-analysis/target/debug/build/freetype-sys-318c4cd7a047f3db/out/freetype2/src/base/ftbdf.o" "-c" "freetype2/src/base/ftbdf.c"
+exit status: 0
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-4" "-fno-omit-frame-pointer" "-m64" "-I" "." "-I" "freetype2/include" "-I" "freetype2/src" "-DFT2_BUILD_LIBRARY" "-o" "/root/Rust/rust-data-analysis/target/debug/build/freetype-sys-318c4cd7a047f3db/out/freetype2/src/base/ftbitmap.o" "-c" "freetype2/src/base/ftbitmap.c"
+exit status: 0
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-4" "-fno-omit-frame-pointer" "-m64" "-I" "." "-I" "freetype2/include" "-I" "freetype2/src" "-DFT2_BUILD_LIBRARY" "-o" "/root/Rust/rust-data-analysis/target/debug/build/freetype-sys-318c4cd7a047f3db/out/freetype2/src/base/ftcid.o" "-c" "freetype2/src/base/ftcid.c"
+exit status: 0
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-4" "-fno-omit-frame-pointer" "-m64" "-I" "." "-I" "freetype2/include" "-I" "freetype2/src" "-DFT2_BUILD_LIBRARY" "-o" "/root/Rust/rust-data-analysis/target/debug/build/freetype-sys-318c4cd7a047f3db/out/freetype2/src/base/ftdebug.o" "-c" "freetype2/src/base/ftdebug.c"
+exit status: 0
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-4" "-fno-omit-frame-pointer" "-m64" "-I" "." "-I" "freetype2/include" "-I" "freetype2/src" "-DFT2_BUILD_LIBRARY" "-o" "/root/Rust/rust-data-analysis/target/debug/build/freetype-sys-318c4cd7a047f3db/out/freetype2/src/base/ftfstype.o" "-c" "freetype2/src/base/ftfstype.c"
+exit status: 0
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-4" "-fno-omit-frame-pointer" "-m64" "-I" "." "-I" "freetype2/include" "-I" "freetype2/src" "-DFT2_BUILD_LIBRARY" "-o" "/root/Rust/rust-data-analysis/target/debug/build/freetype-sys-318c4cd7a047f3db/out/freetype2/src/base/ftgasp.o" "-c" "freetype2/src/base/ftgasp.c"
+exit status: 0
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-4" "-fno-omit-frame-pointer" "-m64" "-I" "." "-I" "freetype2/include" "-I" "freetype2/src" "-DFT2_BUILD_LIBRARY" "-o" "/root/Rust/rust-data-analysis/target/debug/build/freetype-sys-318c4cd7a047f3db/out/freetype2/src/base/ftglyph.o" "-c" "freetype2/src/base/ftglyph.c"
+exit status: 0
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-4" "-fno-omit-frame-pointer" "-m64" "-I" "." "-I" "freetype2/include" "-I" "freetype2/src" "-DFT2_BUILD_LIBRARY" "-o" "/root/Rust/rust-data-analysis/target/debug/build/freetype-sys-318c4cd7a047f3db/out/freetype2/src/base/ftgxval.o" "-c" "freetype2/src/base/ftgxval.c"
+exit status: 0
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-4" "-fno-omit-frame-pointer" "-m64" "-I" "." "-I" "freetype2/include" "-I" "freetype2/src" "-DFT2_BUILD_LIBRARY" "-o" "/root/Rust/rust-data-analysis/target/debug/build/freetype-sys-318c4cd7a047f3db/out/freetype2/src/base/ftinit.o" "-c" "freetype2/src/base/ftinit.c"
+exit status: 0
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-4" "-fno-omit-frame-pointer" "-m64" "-I" "." "-I" "freetype2/include" "-I" "freetype2/src" "-DFT2_BUILD_LIBRARY" "-o" "/root/Rust/rust-data-analysis/target/debug/build/freetype-sys-318c4cd7a047f3db/out/freetype2/src/base/ftmm.o" "-c" "freetype2/src/base/ftmm.c"
+exit status: 0
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-4" "-fno-omit-frame-pointer" "-m64" "-I" "." "-I" "freetype2/include" "-I" "freetype2/src" "-DFT2_BUILD_LIBRARY" "-o" "/root/Rust/rust-data-analysis/target/debug/build/freetype-sys-318c4cd7a047f3db/out/freetype2/src/base/ftotval.o" "-c" "freetype2/src/base/ftotval.c"
+exit status: 0
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-4" "-fno-omit-frame-pointer" "-m64" "-I" "." "-I" "freetype2/include" "-I" "freetype2/src" "-DFT2_BUILD_LIBRARY" "-o" "/root/Rust/rust-data-analysis/target/debug/build/freetype-sys-318c4cd7a047f3db/out/freetype2/src/base/ftpatent.o" "-c" "freetype2/src/base/ftpatent.c"
+exit status: 0
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-4" "-fno-omit-frame-pointer" "-m64" "-I" "." "-I" "freetype2/include" "-I" "freetype2/src" "-DFT2_BUILD_LIBRARY" "-o" "/root/Rust/rust-data-analysis/target/debug/build/freetype-sys-318c4cd7a047f3db/out/freetype2/src/base/ftpfr.o" "-c" "freetype2/src/base/ftpfr.c"
+exit status: 0
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-4" "-fno-omit-frame-pointer" "-m64" "-I" "." "-I" "freetype2/include" "-I" "freetype2/src" "-DFT2_BUILD_LIBRARY" "-o" "/root/Rust/rust-data-analysis/target/debug/build/freetype-sys-318c4cd7a047f3db/out/freetype2/src/base/ftstroke.o" "-c" "freetype2/src/base/ftstroke.c"
+exit status: 0
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-4" "-fno-omit-frame-pointer" "-m64" "-I" "." "-I" "freetype2/include" "-I" "freetype2/src" "-DFT2_BUILD_LIBRARY" "-o" "/root/Rust/rust-data-analysis/target/debug/build/freetype-sys-318c4cd7a047f3db/out/freetype2/src/base/ftsynth.o" "-c" "freetype2/src/base/ftsynth.c"
+exit status: 0
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-4" "-fno-omit-frame-pointer" "-m64" "-I" "." "-I" "freetype2/include" "-I" "freetype2/src" "-DFT2_BUILD_LIBRARY" "-o" "/root/Rust/rust-data-analysis/target/debug/build/freetype-sys-318c4cd7a047f3db/out/freetype2/src/base/ftsystem.o" "-c" "freetype2/src/base/ftsystem.c"
+exit status: 0
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-4" "-fno-omit-frame-pointer" "-m64" "-I" "." "-I" "freetype2/include" "-I" "freetype2/src" "-DFT2_BUILD_LIBRARY" "-o" "/root/Rust/rust-data-analysis/target/debug/build/freetype-sys-318c4cd7a047f3db/out/freetype2/src/base/fttype1.o" "-c" "freetype2/src/base/fttype1.c"
+exit status: 0
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-4" "-fno-omit-frame-pointer" "-m64" "-I" "." "-I" "freetype2/include" "-I" "freetype2/src" "-DFT2_BUILD_LIBRARY" "-o" "/root/Rust/rust-data-analysis/target/debug/build/freetype-sys-318c4cd7a047f3db/out/freetype2/src/base/ftwinfnt.o" "-c" "freetype2/src/base/ftwinfnt.c"
+exit status: 0
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-4" "-fno-omit-frame-pointer" "-m64" "-I" "." "-I" "freetype2/include" "-I" "freetype2/src" "-DFT2_BUILD_LIBRARY" "-o" "/root/Rust/rust-data-analysis/target/debug/build/freetype-sys-318c4cd7a047f3db/out/freetype2/src/bdf/bdf.o" "-c" "freetype2/src/bdf/bdf.c"
+exit status: 0
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-4" "-fno-omit-frame-pointer" "-m64" "-I" "." "-I" "freetype2/include" "-I" "freetype2/src" "-DFT2_BUILD_LIBRARY" "-o" "/root/Rust/rust-data-analysis/target/debug/build/freetype-sys-318c4cd7a047f3db/out/freetype2/src/bzip2/ftbzip2.o" "-c" "freetype2/src/bzip2/ftbzip2.c"
+exit status: 0
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-4" "-fno-omit-frame-pointer" "-m64" "-I" "." "-I" "freetype2/include" "-I" "freetype2/src" "-DFT2_BUILD_LIBRARY" "-o" "/root/Rust/rust-data-analysis/target/debug/build/freetype-sys-318c4cd7a047f3db/out/freetype2/src/cache/ftcache.o" "-c" "freetype2/src/cache/ftcache.c"
+exit status: 0
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-4" "-fno-omit-frame-pointer" "-m64" "-I" "." "-I" "freetype2/include" "-I" "freetype2/src" "-DFT2_BUILD_LIBRARY" "-o" "/root/Rust/rust-data-analysis/target/debug/build/freetype-sys-318c4cd7a047f3db/out/freetype2/src/cff/cff.o" "-c" "freetype2/src/cff/cff.c"
+exit status: 0
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-4" "-fno-omit-frame-pointer" "-m64" "-I" "." "-I" "freetype2/include" "-I" "freetype2/src" "-DFT2_BUILD_LIBRARY" "-o" "/root/Rust/rust-data-analysis/target/debug/build/freetype-sys-318c4cd7a047f3db/out/freetype2/src/cid/type1cid.o" "-c" "freetype2/src/cid/type1cid.c"
+exit status: 0
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-4" "-fno-omit-frame-pointer" "-m64" "-I" "." "-I" "freetype2/include" "-I" "freetype2/src" "-DFT2_BUILD_LIBRARY" "-o" "/root/Rust/rust-data-analysis/target/debug/build/freetype-sys-318c4cd7a047f3db/out/freetype2/src/gzip/ftgzip.o" "-c" "freetype2/src/gzip/ftgzip.c"
+exit status: 0
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-4" "-fno-omit-frame-pointer" "-m64" "-I" "." "-I" "freetype2/include" "-I" "freetype2/src" "-DFT2_BUILD_LIBRARY" "-o" "/root/Rust/rust-data-analysis/target/debug/build/freetype-sys-318c4cd7a047f3db/out/freetype2/src/lzw/ftlzw.o" "-c" "freetype2/src/lzw/ftlzw.c"
+exit status: 0
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-4" "-fno-omit-frame-pointer" "-m64" "-I" "." "-I" "freetype2/include" "-I" "freetype2/src" "-DFT2_BUILD_LIBRARY" "-o" "/root/Rust/rust-data-analysis/target/debug/build/freetype-sys-318c4cd7a047f3db/out/freetype2/src/pcf/pcf.o" "-c" "freetype2/src/pcf/pcf.c"
+exit status: 0
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-4" "-fno-omit-frame-pointer" "-m64" "-I" "." "-I" "freetype2/include" "-I" "freetype2/src" "-DFT2_BUILD_LIBRARY" "-o" "/root/Rust/rust-data-analysis/target/debug/build/freetype-sys-318c4cd7a047f3db/out/freetype2/src/pfr/pfr.o" "-c" "freetype2/src/pfr/pfr.c"
+exit status: 0
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-4" "-fno-omit-frame-pointer" "-m64" "-I" "." "-I" "freetype2/include" "-I" "freetype2/src" "-DFT2_BUILD_LIBRARY" "-o" "/root/Rust/rust-data-analysis/target/debug/build/freetype-sys-318c4cd7a047f3db/out/freetype2/src/psaux/psaux.o" "-c" "freetype2/src/psaux/psaux.c"
+exit status: 0
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-4" "-fno-omit-frame-pointer" "-m64" "-I" "." "-I" "freetype2/include" "-I" "freetype2/src" "-DFT2_BUILD_LIBRARY" "-o" "/root/Rust/rust-data-analysis/target/debug/build/freetype-sys-318c4cd7a047f3db/out/freetype2/src/pshinter/pshinter.o" "-c" "freetype2/src/pshinter/pshinter.c"
+exit status: 0
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-4" "-fno-omit-frame-pointer" "-m64" "-I" "." "-I" "freetype2/include" "-I" "freetype2/src" "-DFT2_BUILD_LIBRARY" "-o" "/root/Rust/rust-data-analysis/target/debug/build/freetype-sys-318c4cd7a047f3db/out/freetype2/src/psnames/psnames.o" "-c" "freetype2/src/psnames/psnames.c"
+exit status: 0
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-4" "-fno-omit-frame-pointer" "-m64" "-I" "." "-I" "freetype2/include" "-I" "freetype2/src" "-DFT2_BUILD_LIBRARY" "-o" "/root/Rust/rust-data-analysis/target/debug/build/freetype-sys-318c4cd7a047f3db/out/freetype2/src/raster/raster.o" "-c" "freetype2/src/raster/raster.c"
+exit status: 0
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-4" "-fno-omit-frame-pointer" "-m64" "-I" "." "-I" "freetype2/include" "-I" "freetype2/src" "-DFT2_BUILD_LIBRARY" "-o" "/root/Rust/rust-data-analysis/target/debug/build/freetype-sys-318c4cd7a047f3db/out/freetype2/src/sdf/sdf.o" "-c" "freetype2/src/sdf/sdf.c"
+exit status: 0
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-4" "-fno-omit-frame-pointer" "-m64" "-I" "." "-I" "freetype2/include" "-I" "freetype2/src" "-DFT2_BUILD_LIBRARY" "-o" "/root/Rust/rust-data-analysis/target/debug/build/freetype-sys-318c4cd7a047f3db/out/freetype2/src/svg/svg.o" "-c" "freetype2/src/svg/svg.c"
+exit status: 0
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-4" "-fno-omit-frame-pointer" "-m64" "-I" "." "-I" "freetype2/include" "-I" "freetype2/src" "-DFT2_BUILD_LIBRARY" "-o" "/root/Rust/rust-data-analysis/target/debug/build/freetype-sys-318c4cd7a047f3db/out/freetype2/src/sfnt/sfnt.o" "-c" "freetype2/src/sfnt/sfnt.c"
+exit status: 0
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-4" "-fno-omit-frame-pointer" "-m64" "-I" "." "-I" "freetype2/include" "-I" "freetype2/src" "-DFT2_BUILD_LIBRARY" "-o" "/root/Rust/rust-data-analysis/target/debug/build/freetype-sys-318c4cd7a047f3db/out/freetype2/src/smooth/smooth.o" "-c" "freetype2/src/smooth/smooth.c"
+exit status: 0
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-4" "-fno-omit-frame-pointer" "-m64" "-I" "." "-I" "freetype2/include" "-I" "freetype2/src" "-DFT2_BUILD_LIBRARY" "-o" "/root/Rust/rust-data-analysis/target/debug/build/freetype-sys-318c4cd7a047f3db/out/freetype2/src/truetype/truetype.o" "-c" "freetype2/src/truetype/truetype.c"
+exit status: 0
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-4" "-fno-omit-frame-pointer" "-m64" "-I" "." "-I" "freetype2/include" "-I" "freetype2/src" "-DFT2_BUILD_LIBRARY" "-o" "/root/Rust/rust-data-analysis/target/debug/build/freetype-sys-318c4cd7a047f3db/out/freetype2/src/type1/type1.o" "-c" "freetype2/src/type1/type1.c"
+exit status: 0
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-4" "-fno-omit-frame-pointer" "-m64" "-I" "." "-I" "freetype2/include" "-I" "freetype2/src" "-DFT2_BUILD_LIBRARY" "-o" "/root/Rust/rust-data-analysis/target/debug/build/freetype-sys-318c4cd7a047f3db/out/freetype2/src/type42/type42.o" "-c" "freetype2/src/type42/type42.c"
+exit status: 0
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-4" "-fno-omit-frame-pointer" "-m64" "-I" "." "-I" "freetype2/include" "-I" "freetype2/src" "-DFT2_BUILD_LIBRARY" "-o" "/root/Rust/rust-data-analysis/target/debug/build/freetype-sys-318c4cd7a047f3db/out/freetype2/src/winfonts/winfnt.o" "-c" "freetype2/src/winfonts/winfnt.c"
+exit status: 0
+cargo:rerun-if-env-changed=AR_x86_64-unknown-linux-gnu
+AR_x86_64-unknown-linux-gnu = None
+cargo:rerun-if-env-changed=AR_x86_64_unknown_linux_gnu
+AR_x86_64_unknown_linux_gnu = None
+cargo:rerun-if-env-changed=HOST_AR
+HOST_AR = None
+cargo:rerun-if-env-changed=AR
+AR = None
+cargo:rerun-if-env-changed=ARFLAGS_x86_64-unknown-linux-gnu
+ARFLAGS_x86_64-unknown-linux-gnu = None
+cargo:rerun-if-env-changed=ARFLAGS_x86_64_unknown_linux_gnu
+ARFLAGS_x86_64_unknown_linux_gnu = None
+cargo:rerun-if-env-changed=HOST_ARFLAGS
+HOST_ARFLAGS = None
+cargo:rerun-if-env-changed=ARFLAGS
+ARFLAGS = None
+running: ZERO_AR_DATE="1" "ar" "cq" "/root/Rust/rust-data-analysis/target/debug/build/freetype-sys-318c4cd7a047f3db/out/libfreetype2.a" "/root/Rust/rust-data-analysis/target/debug/build/freetype-sys-318c4cd7a047f3db/out/freetype2/src/autofit/autofit.o" "/root/Rust/rust-data-analysis/target/debug/build/freetype-sys-318c4cd7a047f3db/out/freetype2/src/base/ftbase.o" "/root/Rust/rust-data-analysis/target/debug/build/freetype-sys-318c4cd7a047f3db/out/freetype2/src/base/ftbbox.o" "/root/Rust/rust-data-analysis/target/debug/build/freetype-sys-318c4cd7a047f3db/out/freetype2/src/base/ftbdf.o" "/root/Rust/rust-data-analysis/target/debug/build/freetype-sys-318c4cd7a047f3db/out/freetype2/src/base/ftbitmap.o" "/root/Rust/rust-data-analysis/target/debug/build/freetype-sys-318c4cd7a047f3db/out/freetype2/src/base/ftcid.o" "/root/Rust/rust-data-analysis/target/debug/build/freetype-sys-318c4cd7a047f3db/out/freetype2/src/base/ftdebug.o" "/root/Rust/rust-data-analysis/target/debug/build/freetype-sys-318c4cd7a047f3db/out/freetype2/src/base/ftfstype.o" "/root/Rust/rust-data-analysis/target/debug/build/freetype-sys-318c4cd7a047f3db/out/freetype2/src/base/ftgasp.o" "/root/Rust/rust-data-analysis/target/debug/build/freetype-sys-318c4cd7a047f3db/out/freetype2/src/base/ftglyph.o" "/root/Rust/rust-data-analysis/target/debug/build/freetype-sys-318c4cd7a047f3db/out/freetype2/src/base/ftgxval.o" "/root/Rust/rust-data-analysis/target/debug/build/freetype-sys-318c4cd7a047f3db/out/freetype2/src/base/ftinit.o" "/root/Rust/rust-data-analysis/target/debug/build/freetype-sys-318c4cd7a047f3db/out/freetype2/src/base/ftmm.o" "/root/Rust/rust-data-analysis/target/debug/build/freetype-sys-318c4cd7a047f3db/out/freetype2/src/base/ftotval.o" "/root/Rust/rust-data-analysis/target/debug/build/freetype-sys-318c4cd7a047f3db/out/freetype2/src/base/ftpatent.o" "/root/Rust/rust-data-analysis/target/debug/build/freetype-sys-318c4cd7a047f3db/out/freetype2/src/base/ftpfr.o" "/root/Rust/rust-data-analysis/target/debug/build/freetype-sys-318c4cd7a047f3db/out/freetype2/src/base/ftstroke.o" "/root/Rust/rust-data-analysis/target/debug/build/freetype-sys-318c4cd7a047f3db/out/freetype2/src/base/ftsynth.o" "/root/Rust/rust-data-analysis/target/debug/build/freetype-sys-318c4cd7a047f3db/out/freetype2/src/base/ftsystem.o" "/root/Rust/rust-data-analysis/target/debug/build/freetype-sys-318c4cd7a047f3db/out/freetype2/src/base/fttype1.o" "/root/Rust/rust-data-analysis/target/debug/build/freetype-sys-318c4cd7a047f3db/out/freetype2/src/base/ftwinfnt.o" "/root/Rust/rust-data-analysis/target/debug/build/freetype-sys-318c4cd7a047f3db/out/freetype2/src/bdf/bdf.o" "/root/Rust/rust-data-analysis/target/debug/build/freetype-sys-318c4cd7a047f3db/out/freetype2/src/bzip2/ftbzip2.o" "/root/Rust/rust-data-analysis/target/debug/build/freetype-sys-318c4cd7a047f3db/out/freetype2/src/cache/ftcache.o" "/root/Rust/rust-data-analysis/target/debug/build/freetype-sys-318c4cd7a047f3db/out/freetype2/src/cff/cff.o" "/root/Rust/rust-data-analysis/target/debug/build/freetype-sys-318c4cd7a047f3db/out/freetype2/src/cid/type1cid.o" "/root/Rust/rust-data-analysis/target/debug/build/freetype-sys-318c4cd7a047f3db/out/freetype2/src/gzip/ftgzip.o" "/root/Rust/rust-data-analysis/target/debug/build/freetype-sys-318c4cd7a047f3db/out/freetype2/src/lzw/ftlzw.o" "/root/Rust/rust-data-analysis/target/debug/build/freetype-sys-318c4cd7a047f3db/out/freetype2/src/pcf/pcf.o" "/root/Rust/rust-data-analysis/target/debug/build/freetype-sys-318c4cd7a047f3db/out/freetype2/src/pfr/pfr.o" "/root/Rust/rust-data-analysis/target/debug/build/freetype-sys-318c4cd7a047f3db/out/freetype2/src/psaux/psaux.o" "/root/Rust/rust-data-analysis/target/debug/build/freetype-sys-318c4cd7a047f3db/out/freetype2/src/pshinter/pshinter.o" "/root/Rust/rust-data-analysis/target/debug/build/freetype-sys-318c4cd7a047f3db/out/freetype2/src/psnames/psnames.o" "/root/Rust/rust-data-analysis/target/debug/build/freetype-sys-318c4cd7a047f3db/out/freetype2/src/raster/raster.o" "/root/Rust/rust-data-analysis/target/debug/build/freetype-sys-318c4cd7a047f3db/out/freetype2/src/sdf/sdf.o" "/root/Rust/rust-data-analysis/target/debug/build/freetype-sys-318c4cd7a047f3db/out/freetype2/src/svg/svg.o" "/root/Rust/rust-data-analysis/target/debug/build/freetype-sys-318c4cd7a047f3db/out/freetype2/src/sfnt/sfnt.o" "/root/Rust/rust-data-analysis/target/debug/build/freetype-sys-318c4cd7a047f3db/out/freetype2/src/smooth/smooth.o" "/root/Rust/rust-data-analysis/target/debug/build/freetype-sys-318c4cd7a047f3db/out/freetype2/src/truetype/truetype.o" "/root/Rust/rust-data-analysis/target/debug/build/freetype-sys-318c4cd7a047f3db/out/freetype2/src/type1/type1.o" "/root/Rust/rust-data-analysis/target/debug/build/freetype-sys-318c4cd7a047f3db/out/freetype2/src/type42/type42.o" "/root/Rust/rust-data-analysis/target/debug/build/freetype-sys-318c4cd7a047f3db/out/freetype2/src/winfonts/winfnt.o"
+exit status: 0
+running: "ar" "s" "/root/Rust/rust-data-analysis/target/debug/build/freetype-sys-318c4cd7a047f3db/out/libfreetype2.a"
+exit status: 0
+cargo:rustc-link-lib=static=freetype2
+cargo:rustc-link-search=native=/root/Rust/rust-data-analysis/target/debug/build/freetype-sys-318c4cd7a047f3db/out
+cargo:rerun-if-env-changed=CXXSTDLIB_x86_64-unknown-linux-gnu
+CXXSTDLIB_x86_64-unknown-linux-gnu = None
+cargo:rerun-if-env-changed=CXXSTDLIB_x86_64_unknown_linux_gnu
+CXXSTDLIB_x86_64_unknown_linux_gnu = None
+cargo:rerun-if-env-changed=HOST_CXXSTDLIB
+HOST_CXXSTDLIB = None
+cargo:rerun-if-env-changed=CXXSTDLIB
+CXXSTDLIB = None
+cargo:rustc-link-lib=stdc++

@@ -1,0 +1,1 @@
+{"rustc":8022303366561187541,"features":"[]","declared_features":"[\"no-panic\"]","target":6756807492804381655,"profile":2241668132362809309,"path":5689876121118849178,"deps":[],"local":[{"CheckDepInfo":{"dep_info":"debug/.fingerprint/itoa-c9a5a3d12d2e05dd/dep-lib-itoa","checksum":false}}],"rustflags":[],"config":2069994364910194474,"compile_kind":0}

@@ -1,0 +1,13 @@
+/root/Rust/rust-data-analysis/target/debug/deps/fast_float2-88c5d4c5ef427714.d: /root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/fast-float2-0.2.3/src/lib.rs /root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/fast-float2-0.2.3/src/binary.rs /root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/fast-float2-0.2.3/src/common.rs /root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/fast-float2-0.2.3/src/decimal.rs /root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/fast-float2-0.2.3/src/float.rs /root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/fast-float2-0.2.3/src/number.rs /root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/fast-float2-0.2.3/src/parse.rs /root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/fast-float2-0.2.3/src/simple.rs /root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/fast-float2-0.2.3/src/table.rs
+
+/root/Rust/rust-data-analysis/target/debug/deps/libfast_float2-88c5d4c5ef427714.rmeta: /root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/fast-float2-0.2.3/src/lib.rs /root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/fast-float2-0.2.3/src/binary.rs /root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/fast-float2-0.2.3/src/common.rs /root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/fast-float2-0.2.3/src/decimal.rs /root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/fast-float2-0.2.3/src/float.rs /root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/fast-float2-0.2.3/src/number.rs /root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/fast-float2-0.2.3/src/parse.rs /root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/fast-float2-0.2.3/src/simple.rs /root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/fast-float2-0.2.3/src/table.rs
+
+/root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/fast-float2-0.2.3/src/lib.rs:
+/root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/fast-float2-0.2.3/src/binary.rs:
+/root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/fast-float2-0.2.3/src/common.rs:
+/root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/fast-float2-0.2.3/src/decimal.rs:
+/root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/fast-float2-0.2.3/src/float.rs:
+/root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/fast-float2-0.2.3/src/number.rs:
+/root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/fast-float2-0.2.3/src/parse.rs:
+/root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/fast-float2-0.2.3/src/simple.rs:
+/root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/fast-float2-0.2.3/src/table.rs:
